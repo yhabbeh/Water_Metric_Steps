@@ -76,7 +76,6 @@ for i in range( 1, 100000 ):
         Sn_factor = random.randrange(6, 8)
 
     
-#  السطرين الي تحت لانشاء كمية استهلاك بمعامل زيادة حسب اعداد العائلة نسبة المعامل = (عدد الافراد + 10 / 200)
     F=  "(D" + str(i+1) +"*" + str(lt)   +"*" + str(Sn_factor) +"*7/10000)"
     G=  "(D" + str(i+1) +"*" + str(M_Lt) +"*" + str(Sn_factor) +"*30/10000)"
     H= "(D" + str(i + 1) + "*" + str(C_Lt) + "*" + str(Sn_factor) + "*90/10000)"
